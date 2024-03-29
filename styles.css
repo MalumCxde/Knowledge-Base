@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+header {
+    background-color: #007a7c; /* Teal header background */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+#search-section {
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#search-box {
+    padding: 8px;
+    width: 200px;
+}
+
+.search-input {
+    width: 300px; /* Adjust width as needed */
+    padding: 10px;
+    margin: 20px auto; /* Center the search input horizontally */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+#search-box::placeholder {
+    color: #999; /* Light gray placeholder text */
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #007a7c; /* Teal button background */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005151; /* Darker teal on hover */
+}
+
+#results {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff; /* White background for search results */
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h2 {
+    color: #007a7c; /* Teal heading color */
+}
+
+article p {
+    color: #333; /* Dark text color */
+}
+
