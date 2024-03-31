@@ -47,11 +47,6 @@ const knowledgeBase = [
     
 ];
 
-
-
-
-
-
 // Function to perform search
 function search() {
     // Get the search input value and convert it to lowercase
